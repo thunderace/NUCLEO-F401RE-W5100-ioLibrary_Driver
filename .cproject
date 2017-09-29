@@ -37,9 +37,8 @@
 									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
 								</option>
 								<option id="gnu.c.compiler.option.include.paths.1877874361" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Middlewares/ioLibrary_Driver-master/Ethernet&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Middlewares/ioLibrary_Driver-master/Internet&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Middlewares/ioLibrary_Driver-master/Application&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Middlewares/ioLibrary_Driver/Ethernet&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Middlewares/ioLibrary_Driver/Internet&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HAL_Driver/Inc/Legacy&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Utilities/STM32F4xx-Nucleo&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/inc&quot;"/>
@@ -80,7 +79,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="Src/stm32f4xx_hal_timebase_tim_template.c|Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c|Src/stm32f4xx_hal_timebase_rtc_alarm_template.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="HAL_Driver"/>
-						<entry excluding="ioLibrary_Driver-master/Ethernet/W5500|ioLibrary_Driver-master/Ethernet/W5300|ioLibrary_Driver-master/Ethernet/W5200|ioLibrary_Driver-master/Internet/httpServer|ioLibrary_Driver-master/Internet/DNS|ioLibrary_Driver-master/Application|ioLibrary_Driver-master/Internet/FTPClient|ioLibrary_Driver-master/Internet/SNTP|ioLibrary_Driver-master/Internet/TFTP|ioLibrary_Driver-master/Internet/SNMP|ioLibrary_Driver-master/Internet/FTPServer|ioLibrary_Driver|ioLibrary_Driver/Ethernet/W5500|ioLibrary_Driver/Ethernet/W5300|ioLibrary_Driver/Ethernet/W5200" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
+						<entry excluding="ioLibrary_Driver/Application|ioLibrary_Driver/Internet/TFTP|ioLibrary_Driver/Internet/SNTP|ioLibrary_Driver/Internet/SNMP|ioLibrary_Driver/Internet/MQTT|ioLibrary_Driver/Internet/httpServer|ioLibrary_Driver/Internet/FTPServer|ioLibrary_Driver/Internet/FTPClient|ioLibrary_Driver/Internet/DNS|ioLibrary_Driver-master/Ethernet/W5500|ioLibrary_Driver-master/Ethernet/W5300|ioLibrary_Driver-master/Ethernet/W5200|ioLibrary_Driver-master/Internet/httpServer|ioLibrary_Driver-master/Internet/DNS|ioLibrary_Driver-master/Application|ioLibrary_Driver-master/Internet/FTPClient|ioLibrary_Driver-master/Internet/SNTP|ioLibrary_Driver-master/Internet/TFTP|ioLibrary_Driver-master/Internet/SNMP|ioLibrary_Driver-master/Internet/FTPServer|ioLibrary_Driver/Ethernet/W5500|ioLibrary_Driver/Ethernet/W5300|ioLibrary_Driver/Ethernet/W5200" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Utilities"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
 						<entry excluding="syscalls.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
@@ -166,7 +165,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="Src/stm32f4xx_hal_timebase_tim_template.c|Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c|Src/stm32f4xx_hal_timebase_rtc_alarm_template.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="HAL_Driver"/>
-						<entry excluding="ioLibrary_Driver-master/Ethernet/W5500|ioLibrary_Driver-master/Ethernet/W5300|ioLibrary_Driver-master/Ethernet/W5200|ioLibrary_Driver-master/Internet/httpServer|ioLibrary_Driver-master/Internet/DNS|ioLibrary_Driver-master/Application|ioLibrary_Driver-master/Internet/FTPClient|ioLibrary_Driver-master/Internet/SNTP|ioLibrary_Driver-master/Internet/TFTP|ioLibrary_Driver-master/Internet/SNMP|ioLibrary_Driver-master/Internet/FTPServer|ioLibrary_Driver|ioLibrary_Driver/Ethernet/W5500|ioLibrary_Driver/Ethernet/W5300|ioLibrary_Driver/Ethernet/W5200" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
+						<entry excluding="ioLibrary_Driver/Application|ioLibrary_Driver/Internet/TFTP|ioLibrary_Driver/Internet/SNTP|ioLibrary_Driver/Internet/SNMP|ioLibrary_Driver/Internet/MQTT|ioLibrary_Driver/Internet/httpServer|ioLibrary_Driver/Internet/FTPServer|ioLibrary_Driver/Internet/FTPClient|ioLibrary_Driver/Internet/DNS|ioLibrary_Driver-master/Ethernet/W5500|ioLibrary_Driver-master/Ethernet/W5300|ioLibrary_Driver-master/Ethernet/W5200|ioLibrary_Driver-master/Internet/httpServer|ioLibrary_Driver-master/Internet/DNS|ioLibrary_Driver-master/Application|ioLibrary_Driver-master/Internet/FTPClient|ioLibrary_Driver-master/Internet/SNTP|ioLibrary_Driver-master/Internet/TFTP|ioLibrary_Driver-master/Internet/SNMP|ioLibrary_Driver-master/Internet/FTPServer|ioLibrary_Driver/Ethernet/W5500|ioLibrary_Driver/Ethernet/W5300|ioLibrary_Driver/Ethernet/W5200" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Utilities"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
 						<entry excluding="syscalls.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
